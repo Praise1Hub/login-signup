@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Generate JWT secret",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"run",
+				"generate:jwt-secret"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}
